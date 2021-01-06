@@ -1106,10 +1106,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@microsoft/api-documenter@^7.12.1":
-  version "7.12.1"
-  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.12.1.tgz#97a4eee87cbe775f363f7a1f46c57c57ae0bf6fd"
-  integrity sha512-biX5s/UX6KbqBW5GHEykJ0LM3sfb177lH/2nMp4C1pytqRKz4mmPkqWrHpvx7gpzOyDGj2qvzipDH5xK6LIJVg==
+"@microsoft/api-documenter@^7.12.2":
+  version "7.12.2"
+  resolved "https://registry.yarnpkg.com/@microsoft/api-documenter/-/api-documenter-7.12.2.tgz#42a702cab5bccd714d97021898884694a3d44b68"
+  integrity sha512-Qr236VDVZEM2DU23fIKLL9OEMzZd8KMINOEUvOP+Y1VuqlFTRyEtONLbSzNCy3/FMCFJ8FJ9zVr5CIo4dEP0kA==
   dependencies:
     "@microsoft/api-extractor-model" "7.12.1"
     "@microsoft/tsdoc" "0.12.24"
@@ -1533,13 +1533,13 @@
     webpack-node-externals "^2.5.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/axios@^5.12.4":
-  version "5.12.4"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.4.tgz#596ed88441aaedc5e74349f34fff2a462b02d01c"
-  integrity sha512-NKDIkrhtteOwC163Qlglw7YyjWHfLecpC/wXax4Z2tVVDlYnvSBa1KGoH9AnDY30lfvi0gjBKWCcTnUY8PaWDA==
+"@nuxtjs/axios@^5.12.5":
+  version "5.12.5"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/axios/-/axios-5.12.5.tgz#d4a1003052d21e54d93d97a895ca84f58e4bc8d9"
+  integrity sha512-KCZMLRZFYOKcGt9mKxJMH6UJMB6H6g+BF/YxXEYz3Urrf2U2XiNkj6rmBqgw0XLRY5XD9Wm8knTGp6955512fQ==
   dependencies:
     "@nuxtjs/proxy" "^2.1.0"
-    axios "^0.21.0"
+    axios "^0.21.1"
     axios-retry "^3.1.9"
     consola "^2.15.0"
     defu "^3.2.2"
@@ -2882,6 +2882,13 @@ axios@^0.21.0:
   version "0.21.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.0.tgz#26df088803a2350dff2c27f96fef99fe49442aca"
   integrity sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+  dependencies:
+    follow-redirects "^1.10.0"
+
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
     follow-redirects "^1.10.0"
 
@@ -7442,6 +7449,11 @@ jiti@^0.1.16, jiti@^0.1.17:
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-0.1.17.tgz#b693a29c94d0ca4f82a4624b40dd9915527416be"
   integrity sha512-IlUGuEHKA44dqJoSqpv1poIRyyi31ciEmpLlRZCmo9TasVSZhwfmaVUuQVs26EHuwYdx+NirOm41+wbykH/+9Q==
 
+jiti@^0.1.19:
+  version "0.1.19"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-0.1.19.tgz#455f93e0c92f26c9cea0af48def3eb4f567bbbe3"
+  integrity sha512-ElDW0w/0ATX6IQwReNYMVrYkHu8PqIOO5t3lluceP/saq4SYz4D3uSMpU8pbn/RX3H6VYVPc0PnKn2WfQ5kiwg==
+
 jju@~1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/jju/-/jju-1.4.0.tgz#a3abe2718af241a2b2904f84a625970f389ae32a"
@@ -9169,10 +9181,10 @@ pkg-dir@^4.1.0, pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
-playwright@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.7.0.tgz#72a836dcdfa5a99cc36981eb2e86abafd9a30ce3"
-  integrity sha512-yHf4lySomty4wtWetzXu71zswPOBMHnCqyeGM3dMRObuflyuIUWb0/U++hxZnwHCkyS1H8/1+93Rjq25Rz3IGw==
+playwright@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.7.1.tgz#841638811bc39eb2fed792ffaacbcc959a0aaf5e"
+  integrity sha512-dOSWME42wDedJ/PXv8k0zG0Kxd6d6R2OKA51/05++Z2ISdA4N58gHlWqlVKPDkBog1MI6lu/KNt7QDn19AybWQ==
   dependencies:
     debug "^4.1.1"
     extract-zip "^2.0.1"
@@ -11721,7 +11733,18 @@ ts-jest@latest:
     semver "7.x"
     yargs-parser "20.x"
 
-ts-loader@^8.0.12, ts-loader@^8.0.3:
+ts-loader@^8.0.14:
+  version "8.0.14"
+  resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.14.tgz#e46ac1f8dcb88808d0b1335d2eae65b74bd78fe8"
+  integrity sha512-Jt/hHlUnApOZjnSjTmZ+AbD5BGlQFx3f1D0nYuNKwz0JJnuDGHJas6az+FlWKwwRTu+26GXpv249A8UAnYUpqA==
+  dependencies:
+    chalk "^4.1.0"
+    enhanced-resolve "^4.0.0"
+    loader-utils "^2.0.0"
+    micromatch "^4.0.0"
+    semver "^7.3.4"
+
+ts-loader@^8.0.3:
   version "8.0.12"
   resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.12.tgz#1de9f1de65176318c1e6d187bfc496182f8dc2a0"
   integrity sha512-UIivVfGVJDdwwjgSrbtcL9Nf10c1BWnL1mxAQUVcnhNIn/P9W3nP5v60Z0aBMtc7ZrE11lMmU6+5jSgAXmGaYw==
